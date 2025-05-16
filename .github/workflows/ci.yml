@@ -24,4 +24,4 @@ jobs:
     - name: Run tests
       run: |
         cd sentiment-analysis-api
-        pytest
+        PYTHONPATH=. pytest
